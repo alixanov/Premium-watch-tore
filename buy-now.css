@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy-now {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 80px;
+    
+}
+.buy-watch {
+    width: 380px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.02), 0px 0px 0px 1px rgba(27, 31, 35, 0.15);
+}
+.text-watch > h4 {
+    overflow: hidden;
+color: var(--black, #141414);
+text-overflow: ellipsis;
+white-space: nowrap;
+font-family: Epilogue;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+letter-spacing: -0.28px;
+}
+.text-watch > p {
+    color: rgba(20, 20, 20, 0.50);
+font-family: Epilogue;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; /* 116.667% */
+letter-spacing: -0.24px;
+}
+.registration {
+    width: 600px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 8px;
+}
+label {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+label {
+    color: #141414;
+font-family: Epilogue;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+letter-spacing: -0.28px;
+}
+.registration > input {
+    width: 502px;
+    height: 50px;
+    border-radius: 8px;
+border: 1px solid rgba(20, 20, 20, 0.50);
+display: flex;
+padding: 12px 16px;
+align-items: flex-start;
+gap: 8px;
+color: black;
+font-size: 18px;
+align-self: stretch;
+outline: none;
+border: none;
+border: 1px solid rgba(20, 20, 20, 0.50);
+}
+.registration::placeholder {
+    color: rgba(20, 20, 20, 0.50);
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 112.5% */
+letter-spacing: -0.32px;
+}
+textarea {
+   width: 502px;
+   height: 166px;
+    height: 180px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 1% 1% 1% 1%;
+    border-radius: 10px;
+}
+.registration > button {
+    width: 507px;
+    height: 50px;
+    border-radius: 8px;
+background: var(--dark-green, #1E2827);
+display: flex;
+padding: 18px 222px;
+align-items: flex-start;
+gap: 10px;
+color: var(--white, #FFF);
+text-align: center;
+font-family: Epilogue;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; /* 116.667% */
+text-transform: uppercase;
+border: none;
+outline: none;
+cursor: pointer;
+}
+.registration > p {
+    width: 508px;
+    color: rgba(20, 20, 20, 0.40);
+font-family: Epilogue;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; /* 116.667% */
+letter-spacing: -0.24px;
+}
